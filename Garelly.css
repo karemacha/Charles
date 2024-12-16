@@ -1,0 +1,49 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    background: rgb(241, 239, 233);
+}
+.slider{
+    width: 1200px;
+    height: 1000px;
+    background:url(Pic1.jpeg);
+    margin:50px auto;
+    animation : slide 20s infinite;
+}
+@keyframes slide{
+    25%{
+        background: url(Pic1.jpeg);
+    }
+
+    50%{
+        background: url(Pic2.jpeg);
+    }
+
+    75%{
+        background: url(Pic3.jpeg);
+    }
+
+    100%{
+        background: url(Pic4.jpeg);
+    }
+    
+    100%{
+        background: url(Pic5.jpeg);
+    }
+
+    100%{
+        background: url(Charles.jpeg);
+    }
+}
+ ul li {
+    list-style: none;
+    display: inline-block;
+    border-radius: 10px;
+    margin-left: 50px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   text-decoration: none;
+   font-size: larger;
+   background-color:white
+
+ }
